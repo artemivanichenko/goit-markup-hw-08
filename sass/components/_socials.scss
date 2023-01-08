@@ -1,0 +1,28 @@
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .socials__list {
+    width: 44px;
+    height: 44px;
+  }
+  .socials__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: $grey-color;
+    border-radius: 50%;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    fill: $primary-white-color;
+    background-color: $accent-color;
+  }
+  }
+  

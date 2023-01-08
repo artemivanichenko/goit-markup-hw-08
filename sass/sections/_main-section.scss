@@ -1,0 +1,120 @@
+.main-bg {
+    max-width: 1600px;
+    background-color: $background-color;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: $primary-white-color;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero.jpg);
+  }
+  .main-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-icon {
+    background-color: $button-color;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  .main-btn-nav {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-btn-style {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+    border: 0px solid $accent-color;
+    background-color: $accent-color;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    margin: 30px auto 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-property: background-color, color, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+    border: 0px solid $accent-color;
+    border-radius: 4px;
+  }
+  }
+  
+  .main-portfolio {
+    color: $primary-white-color;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    font-style: normal;
+  }
+  .main-btn {
+    gap: 8px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    border: 0px solid $button-color;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .btn-portfolio {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $body-color;
+    border: 0px solid $button-color;
+    background-color: $button-color;
+    border-radius: 4px;
+    padding: 6px 22px;
+    border-radius: 4px;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    background: $accent-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    /* border-radius: 4px; */
+    color: $primary-white-color;
+  }
+  }
+  

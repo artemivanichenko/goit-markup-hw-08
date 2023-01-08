@@ -1,0 +1,20 @@
+// main.scss
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/comon";
+@import "./utils/extend";
+@import "./layout/page-header";
+@import "./components/logo";
+@import "./sections/main-section";
+@import "./sections/projects";
+@import "./components/gallery-card";
+@import "./sections/section-skills";
+@import "./sections/section-team";
+@import "./components/socials";
+@import "./sections/section-clients";
+@import "./layout/footer";
+
+
+
+
